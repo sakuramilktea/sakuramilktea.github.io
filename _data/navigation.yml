@@ -1,14 +1,14 @@
 nav:
-  - title: "Services"
+  - title: "ふこ"
     section: services
 
-  - title: "Portfolio"
+  - title: "ピコ"
     section: portfolio
     
-  - title: "About"
+  - title: "みこ"
     section: timeline
 
-  - title: "Team"
+  - title: "桜"
     section: team
 
   - title: "Contact"
