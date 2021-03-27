@@ -1,18 +1,18 @@
 nav:
-  - title: "ふこ"
+  - title: "カウンセリング"
     section: services
 
-  - title: "ピコ"
+  - title: "ブログ"
     section: portfolio
     
-  - title: "みこ"
-    section: timeline
+  # - title: "みこ"
+  #   section: timeline
 
-  - title: "桜"
+  - title: "プロフィール"
     section: team
 
-  - title: "Contact"
-    section: contact
+  # - title: "Contact"
+  #   section: contact
 
-  - title: "Theme Source"
-    url: https://github.com/raviriley/agency-jekyll-theme/
+  # - title: "Theme Source"
+  #   url: https://github.com/raviriley/agency-jekyll-theme/

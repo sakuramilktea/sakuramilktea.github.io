@@ -1,65 +1,65 @@
 header:
-    title: Sakura Milk Tea
-    text: 荒田章子
-    button: 日本語
-    buttonlink: "#services" # "#{section}" or "URL/page link"
+    title: オンラインカウンセリングルーム 
+    text: Sakura Milk Tea
+    button: 予約する 
+    buttonlink: "#contact" # "#{section}" or "URL/page link"
 
 services:
-    title: "Services"
+    title: "カウンセリング"
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
+      - title: "プライバシー "
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+        icon: fas fa-lock #find more at https://fontawesome.com/icons
+      - title: "We are here to help"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        icon: fas fa-hands       
+      - title: "Certified Psychologyst"
         desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        icon: fas fa-id-badge
 
 portfolio:
-    title: "Portfolio"
+    title: "ブログ"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     
 
-timeline:
-    title: "About" 
-    text: "Lorem ipsum timeline"
-    section: timeline
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt: 
-        align: left
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt: 
-        align: right
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-        #align: #default is left       
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt: 
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+# timeline:
+#     title: "About" 
+#     text: "Lorem ipsum timeline"
+#     section: timeline
+#     events:
+#       - title: "Our Humble Beginnings"
+#         year: "2009-2011"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#         image: assets/img/timeline/1.jpg
+#         alt: 
+#         align: left
+#       - title: "An Agency is Born"
+#         year: "March 2011"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#         image: assets/img/timeline/2.jpg
+#         alt: 
+#         align: right
+#       - title: "Jekyll Theme is created"
+#         year: "2019"
+#         desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+#         image: assets/img/timeline/3.jpg
+#         alt: image alt text
+#         #align: #default is left       
+#       - title: "Title"
+#         year: "2009-2011"
+#         desc: "Your description here, **Markdown** is fully supported."
+#         image: assets/img/timeline/4.jpg
+#         alt: 
+#         align: right
+#     end: "Be Part <br> of Our <br> Story!"
 
-about:
-    title: "About Us"
-    text: "our story"
-    section: about
+# about:
+#     title: "About Us"
+#     text: "our story"
+#     section: about
 
 clients:
     section: clients
@@ -68,7 +68,7 @@ clients:
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
+        logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Apple_Pay_logo.svg/512px-Apple_Pay_logo.svg.png
       - title: "designmodo"
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/designmodo.jpg
@@ -80,7 +80,7 @@ clients:
         logo: assets/img/clients/creative-market.jpg
     
 team:
-    title: "荒田章子"
+    title: "プロフィール"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
@@ -88,16 +88,16 @@ team:
       - name: "荒田章子"
         role: "カウンセラー"
         image: assets/img/team/1.jpg
-      - name: "荒田章子"
-        role: "カウンセラー"
-        image: assets/img/team/1.jpg
-      - name: "荒田章子"
-        role: "カウンセラー"
-        image: assets/img/team/1.jpg
+      # - name: "荒田章子"
+      #   role: "カウンセラー"
+      #   image: assets/img/team/1.jpg
+      # - name: "荒田章子"
+      #   role: "カウンセラー"
+      #   image: assets/img/team/1.jpg
 
 contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "予約"
+    text: "akiko@sakuramilktea.com or call 123456789 10am to 5pm"
     section: contact
     
 footer:
@@ -109,10 +109,10 @@ footer:
         icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+      # - url: https://github.com/raviriley/agency-jekyll-theme
+      #   icon: "fab fa-github"
+      # - url: https://instagram.com
+      #   icon: "fab fa-instagram"
 
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
