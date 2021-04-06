@@ -14,7 +14,11 @@ font-family: 'Comfortaa', 'Kiwi Maru', -apple-system, BlinkMacSystemFont, 'Segoe
 
 section#contact {
     background-color: red;
-    // background-image: url(../img/map-image.png);
-    // background-repeat: no-repeat;
-    // background-position: center;
+    background-image: url(../img/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 158px !important;
 }

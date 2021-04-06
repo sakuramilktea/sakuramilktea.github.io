@@ -6,17 +6,51 @@ header:
 
 services:
     title: "カウンセリング"
-    text: "Lorem ipsum"
+    text: "Sakura Milk Teaは美味しいお茶を飲みながらカフェで信頼できる人とお話をするように<br/>リラックして面談できるカウンセリングルームを作りたいという思いで名付けました。<br/><br/><br/>溜まっている心のモヤモヤを自分からまず吐き出すことで身体が軽くなり、<br/>気持ちに余裕が生まれます。<br/><br/>不安で仕方ない気持ち、イライラする気持ち、家族や友人には話せないけど誰かに聞いてほしい気持ち。。。<br/>ぜひ一度話して、そこから解決方法を見出してみませんか。<br/>"
     section: services
     list:
-      - title: "プライバシー "
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-lock #find more at https://fontawesome.com/icons
-      - title: "We are here to help"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-hands       
-      - title: "Certified Psychologyst"
-        desc: "Your description here, full **Markdown** support"
+      - title: "ご利用案内とお願い事"
+        desc: "ゆったりとお話しできるよう完全予約制です。  
+メール、電話又はオンラインカウンセリングです。
+Sakura Milk Tea カウンセリングルームは、医療機関ではありません。したがって病気の診断や投薬などの医療行為及び診断書の発行等は行っておりません。また医療保険や医療費控除の対象にはなりません。
+現在通われている医療機関や相談機関がある場合は、担当の先生とご相談の上、お申し込みください。
+自害他害などの生命の危険や、暴力行為、社会的に重大な犯罪行為がある場合、お引き受けできないか、カウンセリングの中止する場合があります。
+18 歳未満の方のカウンセリングは保護者の同意が必要になります。
+カウンセリング外のことにつきまして一切責任を負うことはできません。
+当ホームページの文章や画像等の著作物の情報を無断転載することを禁止します。
+以上をご同意の上予約いただけますようよろしくお願いします。"
+        icon: fas fa-handshake #find more at https://fontawesome.com/icons
+      - title: "ご利用料金"
+        desc: "<b>メールカウンセリング</b><br/><br/>
+* 1往復（カウンセラーからの返信が1回）春の特別価格4400円→3300円　税込(1200字まで　2日以内の返信)<br/>
+* 3往復（カウンセラーからの返信が3回）9,900円　税込(1200字まで　2日以内の返信)<br/>
+* 5往復（カウンセラーからの返信が5回）16,500円　税込(1200字まで　2日以内の返信)<br/><br/>
+<b>電話カウンセリング(skype LINE等)</b><br/><br/>
+初めての方40分6600円　税込<br/>
+2回目から　50分7700円　税込<br/>
+5回コース　38500円　税込(1回50分)<br/><br/>
+
+<b>ビデオカウンセリング(zoom skype LINE等)</b><br/><br/>
+初めての方40分6600円　税込<br/>
+2回目から　50分7700円　税込<br/>
+5回コース　38500円　税込(1回50分)<br/><br/>
+料金はすべて前払い・振込みとなっております。振込み先についてはメールでご連絡いたします。<br/>
+カウンセリング日の2日前までにお振込みください。<br/>
+<br/>
+お振込み後の返金は一切行っておりません。<br/>
+お振込み後のキャンセルも返金いたしません。<br/>
+<br/>
+キャンセル料はいただいておりません。<br/>
+ご都合が会わなくなってキャンセルをされたい場合はカウンセリング2日前にご連絡いただけますと幸いです。<br/>
+ただし既にお振込みいただいている場合、返金いたしかねますのでご注意下さい。<br/>
+"
+        icon: fas fa-hands
+      - title: "安心出来る理由"
+        desc: "国家資格保有者がカウンセリングいたします。<br/>
+カウンセリング料もシンプルに設定しておりますので安心してご予約ください。<br/>
+<br/>
+個人情報は当カウンセリングルームによって管理され、目的外に使用することはありません。<br/>
+最終来談から2年が経過した場合は、個人情報に関する一切を破棄する場合があります。"
         icon: fas fa-id-badge
 
 portfolio:
@@ -25,41 +59,41 @@ portfolio:
     section: portfolio
     
 
-# timeline:
-#     title: "About" 
-#     text: "Lorem ipsum timeline"
-#     section: timeline
-#     events:
-#       - title: "Our Humble Beginnings"
-#         year: "2009-2011"
-#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-#         image: assets/img/timeline/1.jpg
-#         alt: 
-#         align: left
-#       - title: "An Agency is Born"
-#         year: "March 2011"
-#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-#         image: assets/img/timeline/2.jpg
-#         alt: 
-#         align: right
-#       - title: "Jekyll Theme is created"
-#         year: "2019"
-#         desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-#         image: assets/img/timeline/3.jpg
-#         alt: image alt text
-#         #align: #default is left       
-#       - title: "Title"
-#         year: "2009-2011"
-#         desc: "Your description here, **Markdown** is fully supported."
-#         image: assets/img/timeline/4.jpg
-#         alt: 
-#         align: right
-#     end: "Be Part <br> of Our <br> Story!"
+timeline:
+    title: "About" 
+    text: "Lorem ipsum timeline"
+    section: timeline
+    events:
+      - title: "Our Humble Beginnings"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt: 
+        align: left
+      - title: "An Agency is Born"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt: 
+        align: right
+      - title: "Jekyll Theme is created"
+        year: "2019"
+        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+        #align: #default is left       
+      - title: "Title"
+        year: "2009-2011"
+        desc: "Your description here, **Markdown** is fully supported."
+        image: assets/img/timeline/4.jpg
+        alt: 
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
 
-# about:
-#     title: "About Us"
-#     text: "our story"
-#     section: about
+about:
+    title: "About Us"
+    text: "our story"
+    section: about
 
 clients:
     section: clients
@@ -81,11 +115,25 @@ clients:
     
 team:
     title: "プロフィール"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    text: "頑張りすぎている方、疲れている方....あれっ最近少しおかしいなと思ったその時がカウンセリングを受けるタイミングです。<br>
+自分らしく生きられるような改善方法をご自身の持っている力から探し出すお手伝いをさせていただけましたら幸いです。<br>
+<br>
+認定心理士<br>
+精神保健福祉士<br>
+<br>
+大学で心理学を学んだ後、<br>
+精神科病棟及びデイナイトケアセンターで<br>
+訪問看護、社会復帰プログラム、コミュニケーションプロブラム、芸術療法等を行う。<br>
+一般企業でも子育てをしながらの勤務経験あり。<br>"
+    subtext: "Sakura Milk Teaは美味しいお茶を飲みながらカフェで信頼できる人とお話をするように  
+リラックスして面談できるカウンセリングルームを作りたいという思いで名付けました。<br>
+<br>
+溜まっている心のモヤモヤを自分からまず吐き出すことで身体が軽くなり、<br>気持ちに余裕が生まれます。<br>
+<br>
+不安で仕方ない気持ち、イライラする気持ち、<br>家族や友人には話せないけど誰かに聞いてほしい気持ち。。。<br>ぜひ一度お話して、まずは一息つきませんか。<br>"
     section: team
     people:
-      - name: "荒田章子"
+      - name: "あらた　あきこ"
         role: "カウンセラー"
         image: assets/img/team/1.jpg
       # - name: "荒田章子"
@@ -101,7 +149,8 @@ contact:
     section: contact
     
 footer:
-    legal: "Privacy Policy"
+    legal: "利用規約・個人情報保護方針"
+    # legal: "Privacy Policy"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"  
