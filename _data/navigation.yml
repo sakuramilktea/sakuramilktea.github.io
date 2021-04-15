@@ -2,8 +2,8 @@ nav:
   - title: "カウンセリング"
     section: services
 
-  - title: "ブログ"
-    section: portfolio
+  # - title: "ブログ"
+  #   section: portfolio
     
   # - title: "みこ"
   #   section: timeline

@@ -20,12 +20,12 @@ baseurl: "/sakuramilktea" # the subpath of your site, e.g. /blog
 title      : Sakura Milk Tea
 timezone   : JST
 email      : akiko@sakuramilktea.com #this is also the email contact forms will go to
-description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
+description: "Sakura Milk Tea Consulting Room"
 author     : Akiko Arata
 logo:     #optional, defaults to site title
   path: assets\img\logo.png
   height: 60 #height in px, defaults to 52px
-
+formspree_form_path: mknkgneq
 analytics:
   google: #Google Analytics tracking code here
 
@@ -35,17 +35,17 @@ collections:
     output: false
   posts:
     title: Posts
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
 remote_theme: raviriley/agency-jekyll-theme
 url: ''
 baseurl: "/sakuramilktea"
-email: your-email@example.com
+email: akiko@sakuramilktea.com
 description: 'Agency Bootstrap theme converted to a Jekyll theme, plus new features:
   Google Analytics, Markdown support, custom pages, and more!'
-author: Your Name
+author: Akiko Arata
 analytics:
   google: 
 markdown: kramdown
