@@ -20,16 +20,16 @@ baseurl: "/sakuramilktea" # the subpath of your site, e.g. /blog
 title      : Sakura Milk Tea
 timezone   : JST
 email      : akiko@sakuramilktea.com #this is also the email contact forms will go to
-description: "Sakura Milk Tea Consulting Room"
+description: "Sakura Milk Tea Counseling Room"
 author     : Akiko Arata
 logo:     #optional, defaults to site title
   path: assets\img\logo.png
   height: 60 #height in px, defaults to 52px
-formspree_form_path: mknkgneq
 analytics:
-  google: UA-196235259-1 #Google Analytics tracking code here
+  google: UA-196235259-1
   statcounterproject: 12524234
   statcountersecurity: 87f219ac
+formspree_form_path: mknkgneq
 
 collections:
   portfolio:
@@ -41,14 +41,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-remote_theme: raviriley/agency-jekyll-theme
-url: ''
-baseurl: "/sakuramilktea"
-email: akiko@sakuramilktea.com
-description: 'Sakura Milk Tea Counseling Room'
-author: Akiko Arata
-analytics:
-  google: 
+
 markdown: kramdown
 plugins:
 - jekyll-remote-theme
