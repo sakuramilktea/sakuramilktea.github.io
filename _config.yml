@@ -27,7 +27,7 @@ logo:     #optional, defaults to site title
   height: 60 #height in px, defaults to 52px
 formspree_form_path: mknkgneq
 analytics:
-  google: G-LEWTYLWFEK #Google Analytics tracking code here
+  google: UA-196235259-1 #Google Analytics tracking code here
 
 collections:
   portfolio:
