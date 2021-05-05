@@ -28,6 +28,8 @@ logo:     #optional, defaults to site title
 formspree_form_path: mknkgneq
 analytics:
   google: UA-196235259-1 #Google Analytics tracking code here
+  statcounterproject: 12524234
+  statcountersecurity: 87f219ac
 
 collections:
   portfolio:
@@ -43,8 +45,7 @@ remote_theme: raviriley/agency-jekyll-theme
 url: ''
 baseurl: "/sakuramilktea"
 email: akiko@sakuramilktea.com
-description: 'Agency Bootstrap theme converted to a Jekyll theme, plus new features:
-  Google Analytics, Markdown support, custom pages, and more!'
+description: 'Sakura Milk Tea Counseling Room'
 author: Akiko Arata
 analytics:
   google: 
