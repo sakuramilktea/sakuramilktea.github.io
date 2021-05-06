@@ -40,7 +40,11 @@ img::-moz-selection { background: transparent; }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover { background-color: #ff91a6 !important; border-color: #ff91a6 !important; color: white; }
 
-.btn-primary:active, .btn-primary:focus { box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
+.btn-primary:active, .btn-primary:focus { box-shadow: 0 0 0 0.2rem rgba(255, 183, 197, 0.5) !important; }
+
+.text-toogle[aria-expanded=false] .text-expanded { display: none; }
+
+.text-toogle[aria-expanded=true] .text-collapsed { display: none; }
 
 #mainNav { background-color: #212529; }
 

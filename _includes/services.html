@@ -20,8 +20,26 @@
           </span>
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+          {% if service.showmore %}
+            <div class="collapse text-muted" id="collapseExample">{{ service.showmore | markdownify }}</div>
+          {% endif %}
         </div>
 	  {% endfor %}
+        <div class="col-md-12">
+          <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <span id="collapseExample" class="text-collapsed">{{ site.data.sitetext.services.showmoretext }}</span>
+            <span aria-expanded="false" id="collapseExample" class="text-expanded">{{ site.data.sitetext.services.showlesstext }}</span>
+            <i id="collapseExample" class="fa fa-angle-down text-collapsed"></i>
+            <i aria-expanded="false" id="collapseExample" class="fa fa-angle-up text-expanded"></i>
+          </button> -->
+
+          <button class="btn btn-primary text-toogle" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <span class="text-collapsed">{{ site.data.sitetext.services.showmoretext }}</span>
+            <span class="text-expanded">{{ site.data.sitetext.services.showlesstext }}</span>
+            <i class="fa fa-angle-down text-collapsed"></i>
+            <i class="fa fa-angle-up text-expanded"></i>
+        </button>
+        </div>
       </div>
 	  
     </div>
