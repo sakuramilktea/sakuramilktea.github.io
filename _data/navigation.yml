@@ -2,5 +2,5 @@ nav:
   - title: "カウンセリング"
     section: services
 
-  - title: "プロフィール"
-    section: team
+  # - title: "プロフィール"
+  #   section: team
